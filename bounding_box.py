@@ -8,7 +8,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8_face.pt")  # Use your YOLOv8 model path if different
 
 # Load the image
-image_path = "/Users/aashiqmahato/Downloads/Face detection api/dataset/Abinawan/IMG_20241203_132441.jpg"  # Replace with the path to your image
+image_path = ""  # Replace with the path to your image
 image = cv2.imread(image_path)
 
 # Run YOLOv8 inference with a confidence threshold
